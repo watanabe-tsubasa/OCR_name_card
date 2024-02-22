@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "divine-fuze-387415",
+  "private_key_id": "41eaafa270caeffd77dd5ba6b6f458d6f50f6077",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCp7lm2jCERu76d\n+IeucwGAslnLeWYEKZ5ECN1MTUd2bgHh80+w+H+s/1W2XikxZxLZCRhGagN4R5Pr\nQSVMXhtbe2+o22/Nral8LHm214eUrUDv2Iq1TcJPknwrCxjq567lQVUjbCFKQujp\nFEtDHJsOleKegvbxUJXDaRAliFVz/jabqjxNtvsYHOCShTkVXFmrOlKyNQUn8CFC\n+FGsoxmHKK1NEFlgkxxCbKd+v25ktSNAo+47Cxd8BPW0R5VCpsP+Bygxbw5YTe5C\nl/yRt0N/SC3XBE0gHBNP99nX22SNu09H5yGK3ZZGpZ4zUnYzO01NUuO6mlEVKZK8\nbtXqAaQBAgMBAAECggEAAKqni8EgCTXd7hiHNvui06eDdVo6mJElmqOIo3W1RkdR\nQuK/jxCS/uWlp1Z2SbgrY2pDD/XnEYUBnTNtQR/ogmDlHcXeWfGcrdDeeX1+BdLy\nC3zTYrmhVbrDyZ8Qjf2anrHtYqsoNGZ3u6AXmV3UpIOJUwUNUSIXY8/S+zw2JltN\nFVSF28rFDemm4G88y01bqDaPa/1Y91gsjvo502XKoSfLJ98aFZ9suuqk7nnBY7Ug\nvMhfRTtQApy1gkQ/ndC7UplWIQjp5r8Rj7qkJFhhcIAWqxtAPuxEh2shamqa8KaQ\nT343RRxeY+EDHtGSmCsFDyFM2/F4r+DUbZKtH6EOoQKBgQDgNw+AdoKEwZ2MD6G2\n+2WPetdtDPw+teDTuVdRikL3HP+DwzB66aFl5aHX+RAYZVMoL8jApBN4JuTbHBwh\nY8+VHIQRHDxJVcWbTCsft9Rn6OnMwKYYI1k3lvmmTqdyPw/JXCpdmfKhN64GXJss\nhg1AKFCbeOwA3s8Z4QRyt4MSoQKBgQDCBUfOOncM0zIm1rqUU+B9ApVb5xvBflX5\nFzVYQl8clhzHau/AXlpBrQsv/XxwNDPDtExcMWl05tCiiblelcX2YqUffPZXcWbA\n4f9VqTpLEucAdiIcivvZs4tTohNiqkZegFN7xDhYKynBJNhrslspp3easS+5UeAQ\nVqDtPVR1YQKBgDt9wIo4Z6cr7E6WczUm/SqV0IUp1eAZyB7FZarIAb6png5rAvkJ\n9n4f8NJqTl/6upbGHwEmR9gwkbalfb1KS3DoEQ6tLD3VGUp8alDPKPetMCPY1fk/\nn9OFJpZ+9iT1II4v+zm8uEkYif88IRwuMWPdjo3CBvSwKclXECQUFx4hAoGADRmg\nLIuECEimRTsQY/151db70LW9CQaHtYbcojXxCBQWo1xUDdARFggiDj52TXko2Zjt\n4vevICaJhb/41SsVr7ofXg3o8CSHBJT90YHYnsMK99wCF51Gvf9CdAYoeuv2TmEp\nwdyQ1VssuY7MUhE72IcnKzm1eDTQBSpkOUB/2GECgYEAoPzE/U9kLwA7oi+4wINa\nk9qVh/7LBessiHrFEddPXkWq+YYuBM39c99HDkiurys/W1bmsvJfanrLDsL6S4BD\nkvEXp0BI2yCEtY1jalgjpeKrWIkPRdkeUhOeAB5timkr8/noOR+g5TrrV4jfKcx2\nqbzIAGGPQZH9P/LSI7hDhH4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "visionapi@divine-fuze-387415.iam.gserviceaccount.com",
+  "client_id": "101047265939225723343",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/visionapi%40divine-fuze-387415.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
