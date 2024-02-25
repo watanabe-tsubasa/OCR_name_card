@@ -1,13 +1,15 @@
+import json
 import os
 import requests
 from dotenv import load_dotenv; load_dotenv()
 
 stein_url = os.getenv('STEIN_URL')
 
-def post_stein_api(data: str):
+def post_stein_api(data: dict):
+  data_str = json.dumps(data)
   response = requests.post(
     stein_url,
-    data=f'[{data}]',
+    data=f'[{data_str}]',
     headers={"Content-Type": "application/json"},
   )
   
@@ -16,9 +18,7 @@ def post_stein_api(data: str):
   
   return response
 
-
 if __name__ == '__main__':
-  import json
   
   test_json = {
     "会社名": "イオンリテール株式会社",
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     "電話番号": "043-212-6133",
     "e-mailアドレス": "watanabe-tsuba@aeonpeople.biz"
   }
-  test_json_str = json.dumps(test_json)
-  res = post_stein_api(test_json_str)
+
+  res = post_stein_api(test_json)
   print(res.text)
   print(res.status_code)

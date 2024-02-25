@@ -1,7 +1,7 @@
 from openai import OpenAI
 from dotenv import load_dotenv;load_dotenv()
 
-def create_chat(string: str):
+def create_chat(string: str) -> str:
 
   client = OpenAI()
   schema = {
