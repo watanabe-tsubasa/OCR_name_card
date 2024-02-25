@@ -1,4 +1,4 @@
-from vision_api import detect_text
+from modules.vision_api import detect_text
 from modules.create_chat import create_chat
 from modules.post_stein import post_stein_api
 from dotenv import load_dotenv;load_dotenv()
