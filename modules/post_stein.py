@@ -21,12 +21,12 @@ def post_stein_api(data: dict):
 if __name__ == '__main__':
   
   test_json = {
-    "会社名": "イオンリテール株式会社",
-    "部署名": "EC本部 EC戦略部 ISF構築グループ",
-    "氏名": "渡邊 翼",
-    "会社住所": "〒261-0023 千葉県千葉市美浜区中瀬14",
-    "電話番号": "043-212-6133",
-    "e-mailアドレス": "watanabe-tsuba@aeonpeople.biz"
+    "会社名": "test株式会社",
+    "部署名": "test本部 test戦略部 test構築グループ",
+    "氏名": "test man",
+    "会社住所": "",
+    "電話番号": "",
+    "e-mailアドレス": "test@test.jp"
   }
 
   res = post_stein_api(test_json)

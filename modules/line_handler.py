@@ -20,7 +20,6 @@ from linebot.v3.messaging import (
 )
 from linebot.v3.exceptions import (
   InvalidSignatureError,
-  
 )
 from linebot.v3.webhooks import (
   MessageEvent,
@@ -41,11 +40,11 @@ if channel_access_token is None:
 configuration = Configuration(
   access_token=channel_access_token
 )
-
-
 async_api_client = AsyncApiClient(configuration)
 line_bot_api = AsyncMessagingApi(async_api_client)
 parser = WebhookParser(channel_secret)
+
+## =========== エクスポートしている関数 ==========
 
 def handle_signature(body, signature):
   try:
@@ -67,7 +66,8 @@ async def events_handler(events):
       return 'OK'
     else:
       continue
-
+  
+## ========== 以下ヘルパー関数 ==========
 
 async def reply_sender(reply_token: str, messages: list[str]):
   await line_bot_api.reply_message(
