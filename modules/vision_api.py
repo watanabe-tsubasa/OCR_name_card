@@ -2,7 +2,7 @@ from modules.decode_json import decode_json
 import os
 from dotenv import load_dotenv; load_dotenv()
 
-def detect_text(path):
+def detect_text(path: str = None, content: bytes=None):
   encoded_str = os.getenv('GCP_JSON_STR')
   dict_data = decode_json(encoded_str=encoded_str)
   
@@ -13,9 +13,10 @@ def detect_text(path):
   credentials = service_account.Credentials.from_service_account_info(dict_data)
 
   client = vision.ImageAnnotatorClient(credentials=credentials)
-
-  with open(path, "rb") as image_file:
-    content = image_file.read()
+  
+  if path is not None:
+    with open(path, "rb") as image_file:
+      content = image_file.read()
 
   image = vision.Image(content=content)
 

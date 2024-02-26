@@ -7,7 +7,7 @@ import json
 
 if __name__ == '__main__':
   try: 
-    res_text = detect_text('./data/test.jpg')
+    res_text = detect_text(path='./data/test.jpg')
   except Exception as e:
     print(e)
   try:
